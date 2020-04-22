@@ -1,0 +1,13 @@
+﻿  Skill.cpp
+d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\utils\vector.h(483): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\utils\game_state.h(105): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\utils\game_state.h(108): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\utils\game_state.h(111): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\utils\game_state.h(114): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\utils\game_state.h(117): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\skill.cpp(9): warning C4190: “player_plan”有指定的 C 链接，但返回了与 C 不兼容的 UDT“PlayerTask”
+          d:\schoollife\technology association\robot\代码\!newcode\skilltemplate\skilltemplate\utils\playertask.h(24) : 参见“PlayerTask”的声明
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  maths.cpp
+  SkillTemplate.vcxproj -> D:\SchoolLife\Technology Association\Robot\代码\!NewCode\SkillTemplate\Debug\SkillTemplate.dll

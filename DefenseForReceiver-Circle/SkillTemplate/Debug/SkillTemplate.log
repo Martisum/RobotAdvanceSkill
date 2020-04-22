@@ -1,0 +1,68 @@
+﻿生成启动时间为 2020/4/18 9:29:56。
+     1>项目“H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\SkillTemplate\SkillTemplate.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DefenseForReceiver-Tangency.vcxproj, SkillTemplate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         H:\make\PHH\robot\Visual Studio 2013 Ultimate\VC\bin\CL.exe /c /I"H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\SkillTemplate\\worldmodel_lib\Debug" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Skill.cpp utils\maths.cpp
+         maths.cpp
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\vector.h(520): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(3): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(4): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(5): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(6): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(7): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(8): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(9): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(10): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(11): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(12): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(13): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(14): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(15): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(16): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(17): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(18): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(25): warning C4305: “-=”: 从“double”到“float”截断
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(26): warning C4305: “+=”: 从“double”到“float”截断
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(32): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(39): warning C4305: “初始化”: 从“double”到“float”截断
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(69): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(70): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\util.h(78): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+                 h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(48): 参见对正在编译的函数 模板 实例化“real angle_mod<num>(real)”的引用
+                 with
+                 [
+                     real=float
+         ,            num=float
+                 ]
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\vector.h(400): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+                 h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\maths.cpp(97): 参见对正在编译的函数 模板 实例化“vector Vector::point_on_segment<point2f>(const vector,const vector,const vector,bool)”的引用
+                 with
+                 [
+                     vector=point2f
+                 ]
+         Skill.cpp
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\vector.h(520): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\planegeometry.h(27): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\game_state.h(105): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\game_state.h(108): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\game_state.h(111): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\game_state.h(114): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\game_state.h(117): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\skill.cpp(4): warning C4190: “player_plan”有指定的 C 链接，但返回了与 C 不兼容的 UDT“PlayerTask”
+                 h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\utils\playertask.h(24) : 参见“PlayerTask”的声明
+     1>h:\make\phh\robot\!newcode\defenseforreceiver-circle\skilltemplate\skill.cpp(13): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+         正在生成代码...
+       Link:
+         H:\make\PHH\robot\Visual Studio 2013 Ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\Debug\DefenseForReceiver-Circle.dll" /INCREMENTAL /NOLOGO /LIBPATH:"H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\SkillTemplate\\worldmodel_lib\Debug" worldmodel_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\Debug\DefenseForReceiver-Circle.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\Debug\DefenseForReceiver-Circle.lib" /MACHINE:X86 /DLL Debug\Skill.obj
+         Debug\maths.obj
+            正在创建库 H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\Debug\DefenseForReceiver-Circle.lib 和对象 H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\Debug\DefenseForReceiver-Circle.exp
+     1>worldmodel_lib.lib(worldmodel.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“worldmodel_lib.lib(worldmodel.obj)”或在“H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         SkillTemplate.vcxproj -> H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\Debug\DefenseForReceiver-Circle.dll
+     1>已完成生成项目“H:\make\PHH\robot\!NewCode\DefenseForReceiver-Circle\SkillTemplate\SkillTemplate.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.61

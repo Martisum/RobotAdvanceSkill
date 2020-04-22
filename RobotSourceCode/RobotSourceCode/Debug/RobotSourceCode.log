@@ -1,0 +1,41 @@
+﻿生成启动时间为 2019/7/5 12:09:27。
+     1>项目“D:\Technology Association\Robot\代码\RobotSourceCode\RobotSourceCode\RobotSourceCode.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Applications\Microsoft\Visual Stdio\2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GetBall.cpp goalie.cpp GoReceivePos.cpp GotoPos.cpp NormalDef.cpp PassBall.cpp PenaltyDef.cpp PenaltyKick.cpp ReceiveBall.cpp RefDef.cpp Shoot.cpp utils\maths.cpp
+         maths.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “utils\maths.cpp”: No such file or directory
+         Shoot.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\shoot.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\shoot.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         RefDef.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\refdef.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         ReceiveBall.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\receiveball.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\receiveball.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         PenaltyKick.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\penaltykick.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         PenaltyDef.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\penaltydef.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         PassBall.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\passball.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\passball.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         NormalDef.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\normaldef.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\normaldef.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         GotoPos.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\gotopos.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         GoReceivePos.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\goreceivepos.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\util\vector.h(662): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\goreveivepos.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerSkill.h”: No such file or directory
+         goalie.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\goalie.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\goalie.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerSkill.h”: No such file or directory
+         GetBall.cpp
+     1>d:\technology association\robot\代码\robotsourcecode\robotsourcecode\getball.h(3): fatal error C1083: 无法打开包括文件: “strategy/task/PlayerTask.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\Technology Association\Robot\代码\RobotSourceCode\RobotSourceCode\RobotSourceCode.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.04

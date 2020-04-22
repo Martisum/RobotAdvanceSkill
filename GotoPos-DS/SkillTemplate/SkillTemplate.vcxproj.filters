@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="utils\maths.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="utils\ball.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\basevision.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\constants.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FilteredObject.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\game_state.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\historylogger.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\matchstate.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\PlayerTask.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\referee_commands.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\robot.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\singleton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\vector.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\worldmodel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\maths.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneGeometry.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{74402384-8852-4781-9873-0280c6cb4df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

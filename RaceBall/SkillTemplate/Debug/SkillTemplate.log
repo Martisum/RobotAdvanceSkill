@@ -1,0 +1,28 @@
+﻿生成启动时间为 2019/7/12 8:47:15。
+     1>项目“D:\Technology Association\Robot\代码\!NewCode\RaceBall\SkillTemplate\SkillTemplate.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SkillTemplate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Applications\Microsoft\Visual Stdio\2013\VC\bin\CL.exe /c /I"D:\Technology Association\Robot\代码\!NewCode\RaceBall\SkillTemplate\\worldmodel_lib\Debug" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Skill.cpp
+         Skill.cpp
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\utils\vector.h(520): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\utils\game_state.h(105): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\utils\game_state.h(108): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\utils\game_state.h(111): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\utils\game_state.h(114): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\utils\game_state.h(117): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\planegeometry.h(27): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\planegeometry.h(136): warning C4800: “double”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\planegeometry.h(137): warning C4800: “double”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\planegeometry.h(138): warning C4800: “double”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\planegeometry.h(139): warning C4800: “double”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\technology association\robot\代码\!newcode\raceball\skilltemplate\skill.cpp(3): warning C4190: “player_plan”有指定的 C 链接，但返回了与 C 不兼容的 UDT“PlayerTask”
+                 d:\technology association\robot\代码\!newcode\raceball\skilltemplate\utils\playertask.h(24) : 参见“PlayerTask”的声明
+       Link:
+         D:\Applications\Microsoft\Visual Stdio\2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Technology Association\Robot\代码\!NewCode\RaceBall\Debug\RaceBall.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Technology Association\Robot\代码\!NewCode\RaceBall\SkillTemplate\\worldmodel_lib\Debug" worldmodel_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Technology Association\Robot\代码\!NewCode\RaceBall\Debug\RaceBall.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Technology Association\Robot\代码\!NewCode\RaceBall\Debug\RaceBall.lib" /MACHINE:X86 /DLL Debug\Skill.obj
+         Debug\maths.obj
+         SkillTemplate.vcxproj -> D:\Technology Association\Robot\代码\!NewCode\RaceBall\Debug\RaceBall.dll
+     1>已完成生成项目“D:\Technology Association\Robot\代码\!NewCode\RaceBall\SkillTemplate\SkillTemplate.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.05

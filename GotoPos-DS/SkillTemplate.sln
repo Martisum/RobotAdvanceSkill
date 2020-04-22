@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GotoPos-DS", "SkillTemplate\SkillTemplate.vcxproj", "{11A2E173-D90A-4179-A781-67A74E0A7976}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A2E173-D90A-4179-A781-67A74E0A7976}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11A2E173-D90A-4179-A781-67A74E0A7976}.Debug|Win32.Build.0 = Debug|Win32
+		{11A2E173-D90A-4179-A781-67A74E0A7976}.Release|Win32.ActiveCfg = Release|Win32
+		{11A2E173-D90A-4179-A781-67A74E0A7976}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5258DC04-C73B-43CA-850A-F0E17F9C16F8}
+	EndGlobalSection
+EndGlobal

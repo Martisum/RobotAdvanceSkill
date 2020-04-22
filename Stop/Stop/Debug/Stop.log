@@ -1,0 +1,52 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SkillTemplate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  maths.cpp
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\vector.h(519): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(3): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(4): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(5): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(6): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(7): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(8): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(9): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(10): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(11): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(12): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(13): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(14): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(15): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(16): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(17): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(18): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(25): warning C4305: “-=”: 从“double”到“float”截断
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(26): warning C4305: “+=”: 从“double”到“float”截断
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(32): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(39): warning C4305: “初始化”: 从“double”到“float”截断
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(69): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(70): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\util.h(79): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+          d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(48): 参见对正在编译的函数 模板 实例化“real angle_mod<num>(real)”的引用
+          with
+          [
+              real=float
+  ,            num=float
+          ]
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\vector.h(399): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+          d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\maths.cpp(97): 参见对正在编译的函数 模板 实例化“vector Vector::point_on_segment<point2f>(const vector,const vector,const vector,bool)”的引用
+          with
+          [
+              vector=point2f
+          ]
+  Skill.cpp
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\vector.h(519): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\game_state.h(105): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\game_state.h(108): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\game_state.h(111): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\game_state.h(114): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\game_state.h(117): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\schoollife\technology association\robot\代码\!newcode\stop\stop\skill.cpp(9): warning C4190: “player_plan”有指定的 C 链接，但返回了与 C 不兼容的 UDT“PlayerTask”
+          d:\schoollife\technology association\robot\代码\!newcode\stop\stop\utils\playertask.h(24) : 参见“PlayerTask”的声明
+  正在生成代码...
+  Stop.vcxproj -> D:\SchoolLife\Technology Association\Robot\代码\!NewCode\Stop\Debug\Stop.dll

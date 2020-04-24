@@ -5,20 +5,20 @@ using namespace PlaneGeometry;
 using namespace FieldPoint;
 using namespace Maths;
 extern "C"_declspec(dllexport) PlayerTask player_plan(const WorldModel* model, int robot_id);
-//ÏÂÃæÕâ¸öÄÚÁªº¯ÊıÖ÷ÒªÓÃÓÚÅĞ¶ÏÊÇ·ñĞèÒªÖ´ĞĞ·ÀÊØ
+//ä¸‹é¢è¿™ä¸ªå†…è”å‡½æ•°ä¸»è¦ç”¨äºåˆ¤æ–­æ˜¯å¦éœ€è¦æ‰§è¡Œé˜²å®ˆ
 inline bool InsideOurPenaltyArea(const point2f& iPoint) {
 	/*
-		Ò»¸öºÜ¶ñĞÄµÄÅĞ¶Ï£¬Âß¼­±í´ïÊ½µÄ·µ»ØÖµ¾ÍÊÇ²¼ÀÊÀàĞÍ£¬ÕâÊÇ¼òĞ´
-		ÒÔ||·ûºÅÎª¼ä¸ô£¬ÎÒÀ´ËµËµÃ¿¸ö»òµÄÒâË¼
-		ÏÂÁĞÌõ¼şÈÎÒâ³ÉÁ¢Ò»¸ö¾ÍËµÃ÷ÇòÔÚ½ûÇøÄÚ²¿£¬ËùÒÔ¶¼¿ÉÒÔÖ´ĞĞÊØÃÅ£¨·µ»Øtrue£©
-		Ò»¡¢ÇòÎ»ÓÚ½ûÇøÖĞ¼äµÄ¾ØĞÎÄÚ²¿¡£ÕâÊÇÀûÓÃ»ñÈ¡ÇòµÄ×ø±êºÍÊ¹ÓÃconstantÄÚ²¿µÄ³£Á¿½øĞĞ±È½ÏÊµÏÖµÄ
-		¶ş¡¢ÇòÎ»ÓÚ½ûÇøÁ½±ßµÄÉÈĞÎÄÚ²¿¡£ÕâÊÇÀûÓÃpoint2fÄÚ²¿µÄlengthº¯ÊıÇó¾àÀëÊµÏÖµÄ
+		ä¸€ä¸ªå¾ˆæ¶å¿ƒçš„åˆ¤æ–­ï¼Œé€»è¾‘è¡¨è¾¾å¼çš„è¿”å›å€¼å°±æ˜¯å¸ƒæœ—ç±»å‹ï¼Œè¿™æ˜¯ç®€å†™
+		ä»¥||ç¬¦å·ä¸ºé—´éš”ï¼Œæˆ‘æ¥è¯´è¯´æ¯ä¸ªæˆ–çš„æ„æ€
+		ä¸‹åˆ—æ¡ä»¶ä»»æ„æˆç«‹ä¸€ä¸ªå°±è¯´æ˜çƒåœ¨ç¦åŒºå†…éƒ¨ï¼Œæ‰€ä»¥éƒ½å¯ä»¥æ‰§è¡Œå®ˆé—¨ï¼ˆè¿”å›trueï¼‰
+		ä¸€ã€çƒä½äºç¦åŒºä¸­é—´çš„çŸ©å½¢å†…éƒ¨ã€‚è¿™æ˜¯åˆ©ç”¨è·å–çƒçš„åæ ‡å’Œä½¿ç”¨constantå†…éƒ¨çš„å¸¸é‡è¿›è¡Œæ¯”è¾ƒå®ç°çš„
+		äºŒã€çƒä½äºç¦åŒºä¸¤è¾¹çš„æ‰‡å½¢å†…éƒ¨ã€‚è¿™æ˜¯åˆ©ç”¨point2få†…éƒ¨çš„lengthå‡½æ•°æ±‚è·ç¦»å®ç°çš„
 	*/
 	return iPoint.x < PENALTY_AREA_R - FIELD_LENGTH_H && abs(iPoint.y) < PENALTY_AREA_L / 2 || (iPoint - Penalty_Arc_Center_Right).length() <
 	PENALTY_AREA_R || (iPoint - Penalty_Arc_Center_Left).length() < PENALTY_AREA_R;
 }
-const double Offset = MAX_ROBOT_SIZE;  //°ÑÆ«ÒÆÁ¿ÉèÖÃÎª»úÆ÷ÈË°ë¾¶
-//ÏÂÃæÕâ¸ö×ø±êµÄºá×ø±êÖµÈç¹û²»¼ÓOffset£¬ÄÇÃ´¾ÍÊÇÇòÃÅÖĞĞÄµãµÄ×ø±ê£¬ÕâÀï¿¼ÂÇÁË»úÆ÷ÈËµÄ´óĞ¡
+const double Offset = MAX_ROBOT_SIZE;  //æŠŠåç§»é‡è®¾ç½®ä¸ºæœºå™¨äººåŠå¾„
+//ä¸‹é¢è¿™ä¸ªåæ ‡çš„æ¨ªåæ ‡å€¼å¦‚æœä¸åŠ Offsetï¼Œé‚£ä¹ˆå°±æ˜¯çƒé—¨ä¸­å¿ƒç‚¹çš„åæ ‡ï¼Œè¿™é‡Œè€ƒè™‘äº†æœºå™¨äººçš„å¤§å°
 const point2f OffsetGoalCenterPoint(-FIELD_LENGTH_H + Offset, 0);
 const point2f OffsetGoalLeftPoint(-FIELD_LENGTH_H + Offset, -GOAL_WIDTH_H-3);
 const point2f OffsetGoalRightPoint(-FIELD_LENGTH_H + Offset, GOAL_WIDTH_H+3);
@@ -28,7 +28,7 @@ PlayerTask player_plan(const WorldModel* model, int robot_id) {
 	const point2f ballPos = model->get_ball_pos();
 	const point2f ballVel = model->get_ball_vel();
 	const bool* oppExistId = model->get_opp_exist_id();
-	//´«Èëµ±Ç°ÇòµÄ×ø±ê
+	//ä¼ å…¥å½“å‰çƒçš„åæ ‡
 	const bool isInsideOurPenaltyArea = InsideOurPenaltyArea(ballPos);
 	task.flag = 1;
 	task.target_pos = OffsetGoalCenterPoint;

@@ -23,25 +23,25 @@
 #ifndef __CONSTANTS_H__
 #define __CONSTANTS_H__
 #include "vector.h"
-const int MAX_ROBOTS = 12;  //×î´óÍæ¼ÒÊı
-const int MAX_TEAM_ROBOTS = 6;  //×î´ó¶ÓÔ±Êı
-const int MAX_ROBOT_SIZE = 9;  //»úÆ÷ÈËµÄ°ë¾¶£¨Î²²¿³¤¶È£©
-const double BALL_SIZE = 5;  //ÇòµÄÖ±¾¶£¿
+const int MAX_ROBOTS = 12;  //æœ€å¤§ç©å®¶æ•°
+const int MAX_TEAM_ROBOTS = 6;  //æœ€å¤§é˜Ÿå‘˜æ•°
+const int MAX_ROBOT_SIZE = 9;  //æœºå™¨äººçš„åŠå¾„ï¼ˆå°¾éƒ¨é•¿åº¦ï¼‰
+const double BALL_SIZE = 5;  //çƒçš„ç›´å¾„ï¼Ÿ
 const int SEGMENT_NUM = 4;
 //==== Field Dimensions (cm) =========================================//
 // diagonal is of 2800 x 2300 is 3623.53
-const double FIELD_LENGTH = 605;  //×ãÇò³¡µÄ³¤
-const double FIELD_WIDTH = 405;  //×ãÇò³¡¿í¶È
-const double FIELD_LENGTH_H = (FIELD_LENGTH / 2);  //×ãÇò³¡ÖĞÏß£¨xÖáµÄ·½Ïò£©
-const double FIELD_WIDTH_H = (FIELD_WIDTH / 2);  //×ãÇò³¡£¨yÖáµÄ·½Ïò£©
-const double GOAL_WIDTH = 70;  //ÇòÃÅµÄ¿í¶È
-const double GOAL_DEPTH = 18;  //ÇòÃÅÄÚÑÓÉî¶È
-const double DEFENSE_WIDTH = 205;  //·ÀÊØÇø¿í¶È
+const double FIELD_LENGTH = 605;  //è¶³çƒåœºçš„é•¿
+const double FIELD_WIDTH = 405;  //è¶³çƒåœºå®½åº¦
+const double FIELD_LENGTH_H = (FIELD_LENGTH / 2);  //è¶³çƒåœºä¸­çº¿ï¼ˆxè½´çš„æ–¹å‘ï¼‰
+const double FIELD_WIDTH_H = (FIELD_WIDTH / 2);  //è¶³çƒåœºï¼ˆyè½´çš„æ–¹å‘ï¼‰
+const double GOAL_WIDTH = 70;  //çƒé—¨çš„å®½åº¦
+const double GOAL_DEPTH = 18;  //çƒé—¨å†…å»¶æ·±åº¦
+const double DEFENSE_WIDTH = 205;  //é˜²å®ˆåŒºå®½åº¦
 const double DEFENSE_DEPTH = 85;
 const double WALL_WIDTH = 1;
 const double PENALTY_BUFF = 4;
 const double PENALTY_AREA_R = 80;
-const double PENALTY_AREA_L = 35;  //½ûÇøÇ°ÃæÆ½Æ½µÄÎ»ÖÃµÄ¿í¶È
+const double PENALTY_AREA_L = 35;  //ç¦åŒºå‰é¢å¹³å¹³çš„ä½ç½®çš„å®½åº¦
 const double PENALTY_KICKER_L = 75;
 const double GOAL_WIDTH_H = (GOAL_WIDTH / 2);
 const double GOAL_DEPTH_H = (GOAL_DEPTH / 2);
@@ -49,7 +49,7 @@ const double DEFENSE_WIDTH_H = (DEFENSE_WIDTH / 2);
 const double DEFENSE_DEPTH_H = (DEFENSE_DEPTH / 2);
 const double CENTER_CIRCLE_RADIUS = 50;
 const double PENALTY_BISECTOR = (GOAL_WIDTH / SEGMENT_NUM);
-const double ROBOT_HEAD = 7.5;  //ÖĞĞÄµãµ½ÄÇ¸öÆ½Æ½µÄÎ»ÖÃ
+const double ROBOT_HEAD = 7.5;  //ä¸­å¿ƒç‚¹åˆ°é‚£ä¸ªå¹³å¹³çš„ä½ç½®
 namespace RuleParam {
 	const double Stop_Dist = 50;
 	const double Free_Kick_Away_Dist = 50;

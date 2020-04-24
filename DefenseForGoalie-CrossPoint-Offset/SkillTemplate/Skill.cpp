@@ -34,7 +34,9 @@ PlayerTask player_plan(const WorldModel* model, int robot_id) {
 	task.target_pos = OffsetGoalCenterPoint;
 	task.orientate = (ballPos - playerPos).angle();
 	task.needCb = isInsideOurPenaltyArea;
-
+	
+	//下面这个if判断是执行场外防守
+	//当球还未进入禁区，而且速度较小，执行“位于直线上的防守”
 	if(ballPos.x > FIELD_LENGTH_H - 230 && abs(ballPos.y) > FIELD_WIDTH_H - 100 && ballVel.length() < 5)
 		for(int i = 0; i < MAX_ROBOTS; i++)
 			if(oppExistId[i]) {

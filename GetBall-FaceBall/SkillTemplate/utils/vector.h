@@ -28,7 +28,7 @@ namespace Vector {
 	//  Vector2D Class
 	//=====================================================================//
 	template <class num>
-	class vector2d;  //Ê¹ÓÃÀàÄ£°åÉùÃ÷Àà´æÔÚ£¨·½±ãstructµ÷ÓÃ£©
+	class vector2d;  //Ê¹ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½structï¿½ï¿½ï¿½Ã£ï¿½
 	template <class num>
 	struct vector2d_struct {
 		num x, y;
@@ -76,7 +76,7 @@ namespace Vector {
 		}
 		num length() const;
 		num sqlength() const;
-		//½Ç¶ÈÖµÊÇ£¨-180£¬180¡¿
+		//ï¿½Ç¶ï¿½Öµï¿½Ç£ï¿½-180ï¿½ï¿½180ï¿½ï¿½
 		num angle() const { return (atan2(y, x)); }
 		num dist(vector2d<num> t) const { return sqrt((x - t.x) * (x - t.x) + (y - t.y) * (y - t.y)); }
 		vector2d<num> norm() const;
@@ -124,7 +124,7 @@ namespace Vector {
 	template <class num>
 	num vector2d<num>::sqlength() const { return (x * x + y * y); }
 
-	//¹æÒ»»¯
+	//ï¿½ï¿½Ò»ï¿½ï¿½
 	template <class num>
 	vector2d<num> vector2d<num>::norm() const {
 		vector2d<num> p;
@@ -163,7 +163,7 @@ namespace Vector {
 		return (p);
 	}
 
-	//µã³Ë,Ïàµ±ÓÚÍ¶Ó°Ö®ºóµÄ³Ë»ý
+	//ï¿½ï¿½ï¿½,ï¿½àµ±ï¿½ï¿½Í¶Ó°Ö®ï¿½ï¿½Ä³Ë»ï¿½
 	template <class num>
 	num vector2d<num>::dot(const vector2d<num> p) const { return (x * p.x + y * p.y); }
 	template <class num>
@@ -388,7 +388,7 @@ namespace Vector {
 	// returns nearest point on line segment x0-x1 to point p
 	template <class vector>
 	vector point_on_segment(const vector x0, const vector x1, const vector p,
-	                        bool flag) {//flag = true£»¿¼ÂÇÏß¶ÎµÄÐÔÖÊ£¬flag = flase£»²»¿¼ÂÇÏß¶ÎµÄÐÔÖÊ
+	                        bool flag) {//flag = trueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¶Îµï¿½ï¿½ï¿½ï¿½Ê£ï¿½flag = flaseï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¶Îµï¿½ï¿½ï¿½ï¿½ï¿½
 		vector sx, sp, r;
 		double f, l;
 		sx = x1 - x0;

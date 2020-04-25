@@ -116,6 +116,7 @@ namespace PlaneGeometry {
 		bool IsParallel(const Line& iLine) const { return _A * iLine.B() == _B * iLine.A(); }
 		bool IsIntersect(const Line& iLine) const { return !IsParallel(iLine); }
 		bool IsVertical(const Line& iLine) const { return _A * iLine.B() + _B * iLine.A() == 0; }
+		//由数学公式推出的crosspoint函数
 		Point CrossPoint(const Line& iLine) const {
 			return IsParallel(iLine) ? Point() : Point((iLine.C() * _B - _C * iLine.B()) / (_A * iLine.B() - iLine.A() * _B),
 			                                           (_C * iLine.A() - iLine.C() * _A) / (_A * iLine.B() - iLine.A() * _B));

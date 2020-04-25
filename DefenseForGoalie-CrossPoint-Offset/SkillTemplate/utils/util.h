@@ -22,7 +22,7 @@ using namespace std;
 #ifndef M_PI
 #define M_PI 3.1415926
 #endif
-// ½«xÏŞÖÆÔÚlowÓëhighÖ®¼ä
+// ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lowï¿½ï¿½highÖ®ï¿½ï¿½
 template <class num1, class num2>
 num1 bound(num1 x, num2 low, num2 high) {
 	if (x < low) x = low;
@@ -52,7 +52,7 @@ num max_abs(num a, num b) { return ((fabs(a) > fabs(b)) ? a : b); }
 template <class num>
 num min_abs(num a, num b) { return ((fabs(a) < fabs(b)) ? a : b); }
 
-// ÅÅĞò: Ğ¡->´ó
+// ï¿½ï¿½ï¿½ï¿½: Ğ¡->ï¿½ï¿½
 template <class num>
 void sort(num& a, num& b, num& c) {
 	if (a > b) swap(a, b);
@@ -66,7 +66,7 @@ num sign_nz(num x) { return ((x >= 0) ? 1 : -1); }
 template <class num>
 num sign(num x) { return ((x >= 0) ? (x > 0) : -1); }
 
-// ÇóÓàÊı
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 // Does a real modulus the *right* way, using
 // truncation instead of round to zero.
 template <class real>
@@ -81,7 +81,7 @@ real angle_mod(real a) {
 
 // Returns angle within [-PI,PI]
 template <class real>
-real anglemod(real a) {
+real anglemod(real a) {  //ä¸¤å€pi
 	a -= M_2PI * rint(a / M_2PI);
 	return (a);
 }

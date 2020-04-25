@@ -42,6 +42,15 @@ PlayerTask player_plan(const WorldModel* model, int robot_id) {
 			if(oppExistId[i]) {
 				const point2f oppPlayerPos = model->get_opp_player_pos(i);
 				const double oppPlayerDir = model->get_opp_player_dir(i);
+				//如果对面机器人距离球的距离小于15cm
+				/*
+					一个卡了我好久的判断：
+					abs(anglemod(oppPlayerDir - (ballPos - oppPlayerPos).angle())) < PI / 4
+					后面(ballPos - oppPlayerPos).angle()的意思是求出球的坐标和对面机器人向量的夹角
+					注意，这两个带进去都是坐标
+					本质上是求机器人中心到球的朝向
+					把这个朝向再和对面机器人的朝向比较，如果大于90度，那么对面机器人还没拿到球，球在机器人的边缘位置
+				*/
 				if((ballPos - oppPlayerPos).length() < 15 && abs(anglemod(oppPlayerDir - (ballPos - oppPlayerPos).angle())) < PI / 4) {
 					const point2f goalPoint = CrossPoint(oppPlayerPos, ballPos, Goal_Left_Point, Goal_Right_Point);
 					if(abs(goalPoint.Y()) < GOAL_WIDTH_H) {
